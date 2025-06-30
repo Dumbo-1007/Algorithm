@@ -1,0 +1,187 @@
+{
+  "strategy": "japanese",
+  "matchStrategy": "partial",
+  "maxNumberOfSuggestions": 5,
+  "maxNumberOfWordsAsPhrase": 3,
+  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 150,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": true,
+  "firstCharactersDisableSuggestions": ":/^【[\\$#@^&*(!~`",
+  "showMatchStrategy": true,
+  "showIndexingStatus": true,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": true,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": false,
+  "customDictionaryPaths": "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": true,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": false,
+  "showLogAboutPerformanceInConsole": false,
+  "selectionHistoryTree": {
+    "问题": {
+      "问题": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1740987351163
+        }
+      }
+    },
+    "哞叫时间": {
+      "哞叫时间": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1739957793492
+        }
+      }
+    },
+    "格式": {
+      "格式": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1739958004325
+        }
+      }
+    },
+    "创建": {
+      "创建": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1740047098652
+        }
+      }
+    },
+    "指针": {
+      "指针": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1740986711829
+        }
+      }
+    },
+    "等等": {
+      "等等": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1740987437592
+        }
+      }
+    },
+    "来传": {
+      "来传": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1740987651434
+        }
+      }
+    },
+    "详解": {
+      "详解": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1740988481939
+        }
+      }
+    },
+    "Java": {
+      "Java": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1741006841738
+        }
+      }
+    },
+    "天数": {
+      "天数": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1741155570091
+        }
+      }
+    },
+    "Sort函数": {
+      "Sort函数": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1741419914794
+        }
+      }
+    },
+    "字符串": {
+      "字符串": {
+        "internalLink": {
+          "count": 3,
+          "lastUpdated": 1741420822129
+        }
+      }
+    },
+    "false": {
+      "false": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1741663274679
+        }
+      }
+    },
+    "queue": {
+      "queue": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1741663335255
+        }
+      }
+    },
+    "vector": {
+      "vector": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1741697991561
+        }
+      }
+    },
+    "不能": {
+      "不能": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1741869874342
+        }
+      }
+    },
+    "二段性": {
+      "二段性": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1742019524629
+        }
+      }
+    },
+    "二分": {
+      "二分": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1742020337068
+        }
+      }
+    }
+  }
+}

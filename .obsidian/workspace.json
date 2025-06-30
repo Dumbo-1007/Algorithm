@@ -1,0 +1,290 @@
+{
+  "main": {
+    "id": "cd5640013de06564",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6fbda578cad3d9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9e970af2cf3abdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git/Git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99cb5e2f7c9143ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "34ed88bd601070fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48b1eb92f68515bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "364a2845f2607f41",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:二分",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6c08f64a4e114492",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e095f24b01431059",
+    "type": "split",
+    "children": [
+      {
+        "id": "97f02bb71a6bf9bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13026041fbdd45a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "10f4c98721e3e33c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git/Git.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Git 的反向链接列表"
+            }
+          },
+          {
+            "id": "d9b7182c4f489a9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "5cc7c1df4b27633d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "44854977bba1cbc5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "cb7d9ffb55f367be",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "dce79ce6d5b4b8c8",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
+          },
+          {
+            "id": "8ecaef23dab14b2d",
+            "type": "leaf",
+            "state": {
+              "type": "SC-custom-variables-view",
+              "state": {},
+              "icon": "code-glyph",
+              "title": "Shell commands: Custom variables"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 222.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "obsidian-kanban:创建新看板": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "workspaces:管理工作区布局": true,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": true,
+      "markdown-importer:打开 Markdown 格式转换器": true,
+      "random-note:开始漫游笔记": true,
+      "audio-recorder:开始/结束录音": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-gallery:Gallery": true,
+      "marp-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "switcher:打开快速切换": false
+    }
+  },
+  "active": "48b1eb92f68515bd",
+  "lastOpenFiles": [
+    "Android开发/knowledge.md",
+    "算法笔记/算法笔记.md",
+    "算法笔记/二分/查找.md",
+    "算法笔记/二分/二分.md",
+    "Android开发/Android你怎么这么折磨人.md",
+    "Android开发/导入外部项目.md",
+    "Android开发/同步我的仓库.md",
+    "Android开发/Android 应用程序组件.md",
+    "Android开发/xml文件.md",
+    "Pytorch/Pytorch.md",
+    "08-Assets/Excalidraw/Drawing 2025-03-17 10.28.18.excalidraw.md",
+    "嵌入式开发/ESP32-C6/ESP32-C6.md",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624151648_179.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624150940_094.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624150906_781.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624150628_352.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624150620_844.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624143751_758.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624143728_907.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624143545_131.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624143520_691.png",
+    "08-Assets/Excalidraw/attachments/Pasted Image 20250624143451_190.png",
+    "复试项目/OS/OS.md",
+    "复试项目/OS",
+    "蓝桥杯/多数意见.md",
+    "蓝桥杯/密接牛追踪2.md",
+    "算法笔记/二分/染色法判定二分图.md",
+    "算法笔记/贪心/贪心.md",
+    "Pytorch/熵.md",
+    "Excalidraw/Drawing 2025-02-25 17.56.29.excalidraw.md",
+    "main.c.md",
+    "嵌入式开发/ESP32-C6/温控风扇.md",
+    "嵌入式开发/ESP32-C6/ESP程序架构与启动分析.md",
+    "Pytorch/手写数字识别.md",
+    "Life/thoughts.md",
+    "Life/Tips.md",
+    "Life/开心.md",
+    "算法笔记/trie",
+    "算法笔记/贪心/attachments",
+    "算法笔记/贪心",
+    "算法笔记/二进制处理/attachments",
+    "算法笔记/二进制处理",
+    "算法笔记/attachments",
+    "未命名",
+    "嵌入式开发/ESP32-C6/未命名",
+    "Android开发/attachments",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "未命名 2.canvas",
+    "未命名 4.canvas",
+    "未命名 3.canvas",
+    "未命名 5.canvas"
+  ]
+}

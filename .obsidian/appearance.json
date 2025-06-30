@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Flexoki",
+  "enabledCssSnippets": [
+    "【图标】iconfont",
+    "【自定义】mytools 样式",
+    "custom-admonitions.c9c6cb"
+  ],
+  "theme": "obsidian",
+  "showRibbon": false
+}

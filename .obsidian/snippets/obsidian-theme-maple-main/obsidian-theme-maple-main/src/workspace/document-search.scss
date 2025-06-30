@@ -1,0 +1,82 @@
+.obsidian-search-match-highlight {
+  background-color: var(--background-secondary);
+}
+
+body.search-internal-enable .document-search-container {
+  background-color: hsl(var(--background-secondary-hsl)) !important;
+  position: absolute;
+  top: var(--size-4-2);
+  right: var(--size-4-4);
+  border-radius: var(--radius-m);
+  // padding: var(--size-2-3);
+  // padding-left: 0;
+  height: fit-content;
+  border: var(--size-2-1) solid var(--frame-outline-color);
+  box-shadow: var(--shadow-s);
+  margin: 0;
+
+  .document-search-buttons {
+    .document-search-button {
+      font-size: 0;
+      background-color: transparent !important;
+      color: var(--text-muted);
+      cursor: var(--cursor);
+      height: var(--input-height);
+      width: var(--input-height);
+      padding: var(--size-4-1);
+      box-shadow: unset !important;
+
+      &:hover {
+        background-color: var(--background-modifier-hover) !important;
+        color: var(--text-normal);
+      }
+    }
+
+    button::before {
+      content: " " !important;
+      display: block;
+      height: var(--size-4-6);
+      width: var(--size-4-6);
+      background-color: currentColor;
+    }
+
+    button:nth-child(1)::before {
+      -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3e%3cpath stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M12 18V6m0 0-6 6m6-6 6 6'/%3e%3c/svg%3e");
+    }
+
+    button:nth-child(2)::before {
+      -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3e%3cpath stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M12 6v12m0 0 6-6m-6 6-6-6'/%3e%3c/svg%3e");
+    }
+
+    button:nth-child(3)::before {
+      -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3e%3cpath fill='black' d='M5.647 17H3.819l3.328-9.455h2.114L12.595 17h-1.829L8.241 9.484h-.074L5.647 17Zm.06-3.707h4.986v1.376H5.707v-1.376Zm9.73-5.748V17h-1.671V7.545h1.671Zm3.39 0V17h-1.672V7.545h1.672Z'/%3e%3c/svg%3e");
+    }
+  }
+
+  .document-search-close-button {
+    top: 0;
+    // icon in modal
+  }
+}
+
+
+.markdown-source-view,
+.markdown-reading-view {
+  container-type: inline-size;
+}
+
+@container (max-width: 390px) {
+  body.search-internal-enable .document-search-container {
+    width: calc(100% - 2 * var(--size-4-3));
+
+    :is(.document-search-input, .document-replace-input) {
+      min-width: 0;
+    }
+  }
+}
+
+@container (max-width: 320px) {
+  body.search-internal-enable .document-search-container :is(.document-search-buttons [aria-label="Shift + F3"], .document-replace-buttons [aria-label="Ctrl + Alt + Enter"]) {
+    display: none;
+  }
+}

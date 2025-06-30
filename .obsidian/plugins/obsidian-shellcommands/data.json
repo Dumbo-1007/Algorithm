@@ -1,0 +1,216 @@
+{
+  "settings_version": "0.23.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "environment_variable_path_augmentations": {},
+  "show_installation_warnings": true,
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "execution_notification_mode": "disabled",
+  "output_channel_clipboard_also_outputs_to_notification": true,
+  "output_channel_notification_decorates_output": true,
+  "enable_events": true,
+  "approve_modals_by_pressing_enter_key": true,
+  "command_palette": {
+    "re_execute_last_shell_command": {
+      "enabled": true,
+      "prefix": "Re-execute: "
+    }
+  },
+  "max_visible_lines_in_shell_command_fields": false,
+  "shell_commands": [
+    {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/auto_transfer.py"
+      },
+      "shells": {},
+      "alias": "test_草稿归档",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "id": "0",
+      "output_handlers": {
+        "stdout": {
+          "handler": "current-file-caret",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "current-file-caret",
+          "convert_ansi_code": true
+        }
+      },
+      "icon": null,
+      "input_contents": {
+        "stdin": null
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "debounce": null,
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/ref_list.py {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "test_引文列表",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "id": "1",
+      "output_handlers": {
+        "stdout": {
+          "handler": "current-file-caret",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "current-file-caret",
+          "convert_ansi_code": true
+        }
+      },
+      "icon": null,
+      "input_contents": {
+        "stdin": null
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "debounce": null,
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/author_count.py {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "test_作者统计",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "id": "2",
+      "output_handlers": {
+        "stdout": {
+          "handler": "current-file-caret",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "current-file-caret",
+          "convert_ansi_code": true
+        }
+      },
+      "icon": null,
+      "input_contents": {
+        "stdin": null
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "debounce": null,
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/paper2docx.py {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "test_导出笔记",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "id": "3",
+      "output_handlers": {
+        "stdout": {
+          "handler": "current-file-caret",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "current-file-caret",
+          "convert_ansi_code": true
+        }
+      },
+      "icon": null,
+      "input_contents": {
+        "stdin": null
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "debounce": null,
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "platform_specific_commands": {
+        "default": "python ./08-Assets/Scripts/export_project.py {{file_path:absolute}}"
+      },
+      "shells": {},
+      "alias": "test_导出项目",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "id": "4",
+      "output_handlers": {
+        "stdout": {
+          "handler": "current-file-bottom",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "current-file-bottom",
+          "convert_ansi_code": true
+        }
+      },
+      "icon": null,
+      "input_contents": {
+        "stdin": null
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_handling_mode": "buffered",
+      "execution_notification_mode": null,
+      "debounce": null,
+      "preactions": [],
+      "variable_default_values": {}
+    }
+  ],
+  "prompts": [],
+  "builtin_variables": {},
+  "custom_variables": [],
+  "custom_variables_notify_changes_via": {
+    "obsidian_uri": true,
+    "output_assignment": true
+  },
+  "custom_shells": [],
+  "output_wrappers": []
+}
